@@ -4,8 +4,22 @@
     clear: both
 }
 
-aside{
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article{
     float: inline-end;
+}
+
+.contact-me .info{
+    display: none;
+    padding: 1% 0;
+}
+
+.contact-me:hover .info{
+    display: block;
 }
 
 
