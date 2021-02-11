@@ -59,12 +59,14 @@ p{
     color: #6F2232;
 }
 
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 .project{
-    display: grid;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-end;
+    
     width: 250px;
     height: 250px;
     border-style: solid;
@@ -72,11 +74,15 @@ p{
     border-radius: 50px;
     padding: 10px;
     margin: 10px;
-    flex: 0 0 100px;
+    flex: 1 0 100px;
     
   
 }
 
+.project img{
+    width: 100%;
+
+}
 .project header{
     background: #1A1A1d;
     color: #950740;
@@ -124,6 +130,10 @@ footer{
 @media screen and (max-width: 768px) {
     .project{
         width: 100%;
+    }
+
+    .cards{
+        flex-direction: column;
     }
 }
 
