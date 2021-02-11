@@ -1,7 +1,9 @@
-.clearfix::after{
-    content: " ";
-    display: block;
-    clear: both
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
 }
 
 main{
@@ -9,18 +11,58 @@ main{
     flex-wrap: wrap;
 }
 
-article{
-    float: inline-end;
+.main-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px;
+    margin: 0;
+    background: #1A1A1d;
+    color: #950740;
+    font-size: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.contact-me .info{
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    float: right;
+}
+
+.navbar li {
+    display: inline;
+    padding: 50px;
+    color: #950740;
+    
+   
+}
+
+
+.projects{
+    flex-direction: row;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+#contact .info{
     display: none;
     padding: 1% 0;
 }
 
-.contact-me:hover .info{
+#contact:hover .info{
     display: block;
 }
+    
+
+
+
+
+    
+
+
+
+
 
 
 
