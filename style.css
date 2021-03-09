@@ -96,6 +96,16 @@ p{
     border-radius: 0 0 50px 50px;
 }
 
+.resume{
+    color:#6F2232;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
 
 
 
